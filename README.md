@@ -4,9 +4,6 @@
 
 Song, S., Hou, L., & Liu, J. A flexible Bayesian regression approach for accurate polygenic risk prediction. *Submitted*, 2021.
 
-# NeuPred
-
-for testing
 
 ## Table of contents
 * [Getting Started](#getting-started)
