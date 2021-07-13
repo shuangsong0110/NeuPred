@@ -149,6 +149,17 @@ NeuPred.I.run(trainpath=PATH_TO_TRAINING_DATA (required),
 
 ## Output
 
+An R list containing:
+
+$res: predictive r2 and the AUC (for qualitative traits)
+
+$S: derived polygenic risk scores
+
+$select.prior: the selected prior
+
+The effect sizes for each variant are saved as files in folder `./posterior`
+
+
 ## A toy example
 Clone this repository using the following git command:
 
