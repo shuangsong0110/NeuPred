@@ -4,6 +4,12 @@
 
 Song, S., Hou, L., & Liu, J. A flexible Bayesian regression approach for accurate polygenic risk prediction. *Submitted*, 2021.
 
+2021.11.22 Update: 
+
+- add option scale/no scale for calculating scores with standardized/no standardized (0,1,2) genotypes.
+
+- add a data-adaptive estimation on global shrinkage parameter
+
 
 ## Table of contents
 * [Getting Started](#getting-started)
