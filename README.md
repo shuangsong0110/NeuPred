@@ -108,6 +108,9 @@ where SNP is the rs ID, A1 is the effect allele, A2 is the alternative allele, B
 
 - TEMP_FILES (optional): T / F. If `tmp=T`, the temp files will be kept, including the LD blocks, test files, etc. If `tmp=F`, the temp files will be deleted after the results have been generated.
 
+- SCALE (optional): T / F. If the effect sizes are used for standardized genotypes, please set `scale=T`; if the effect sizes are used for raw genotypes (0,1,2), such as calculating scores with PLINK, please set `scale=F`.
+
+
 
 ### NeuPred-I (Individual-level data based PRS method)
 The individual-level data version, NeuPred-I can be run using the following command:
@@ -124,7 +127,8 @@ NeuPred.I.run(trainpath=PATH_TO_TRAINING_DATA (required),
      	      cores=NUMBER_OF_RUNNING_CORES (optional),
      	      chr=CHROM (optional),
 	      plot=ROC_PLOT (T / F, optional),
-	      tmp=TEMP_FILES (T / F, optional) ])       
+	      tmp=TEMP_FILES (T / F, optional) ]),
+	      scale=SCALE (T / F, optional) ])
              
 ```
 
@@ -152,6 +156,7 @@ NeuPred.I.run(trainpath=PATH_TO_TRAINING_DATA (required),
 
 - TEMP_FILES (optional): T / F. If `tmp=T`, the temp files will be kept, including the LD blocks, test files, etc. If `tmp=F`, the temp files will be deleted after the results have been generated.
 
+- SCALE (optional): T / F. If the effect sizes are used for standardized genotypes, please set `scale=T`; if the effect sizes are used for raw genotypes (0,1,2), such as calculating scores with PLINK, please set `scale=F`.
 
 ## Output
 
