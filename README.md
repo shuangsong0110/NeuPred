@@ -2,7 +2,7 @@
 
 **NeuPred** is an R implementation of a unified Bayesian framework for polygenic risk scores construction.
 
-Song, S., Hou, L., & Liu, J. A flexible Bayesian regression approach for accurate polygenic risk prediction. *Submitted*, 2021.
+Song, S., Hou, L., & Liu, J. A flexible Bayesian regression approach for accurate polygenic risk prediction. *Bioinformatics*, 2022.
 
 2021.11.22 Update: 
 
