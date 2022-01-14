@@ -1,0 +1,13 @@
+Package: NeuPred
+Type: Package
+Title: A unified framework for high dimensional Bayesian regression to derive polygenic risk scores
+Version: 1.1.0
+Author: Shuang Song
+Maintainer: Shuang Song <song-s19@mails.tsinghua.edu.cn>
+Description: NeuPred encompasses a wide class of priors to improve overall PRS prediction accuracy for complex diseases by closely modeling the varying genetic architectures. 
+License: GPL-3
+Depends: R (>= 3.3.0), EBPRS, data.table, stats, utils, nlshrink, parallel, NPrior, methods, ROCR, pROC
+Remotes: github::rabbitinasubmarine/NPrior
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
