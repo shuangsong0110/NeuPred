@@ -181,12 +181,13 @@ $ cd ./NeuPred
 Run with R:
 ```r
 library(NeuPred)
+path0 <- getwd()
 plinkpath <- 'PATH_TO_PLINK_SOFTWARE'
-path <- './example/'
+path <- paste0(path0, '/example/')
 dir.create(path, recursive=T)
-LDpath <- './test_dat/LD'
-summs <- fread('./test_dat/train.txt')
-testpath <- './test_dat/test'
+LDpath <- paste0(path0, '/test_dat/test')
+summs <- fread(paste0(path0, '/test_dat/train.txt'))
+testpath <- paste0(path0, '/test_dat/test')
 n <- 3000
 res <- NeuPred.run(summs=summs, LDpath=LDpath, n=n, prior='L', external.ld = F, ethnic='EUR',
                     plinkpath=plinkpath, path=path, testpath=testpath,
