@@ -52,7 +52,6 @@ NeuPred.I.run <- function(trainpath,
   #pos: chr start stop
   trainfam <- fread(paste0(trainpath,'.fam'))
   n <- nrow(trainfam)
-  rm(trainpath)
   print('If the sample size of the training data is very large, we also suggest generate summary statistics using PLINK and use NeuPred_run based on summary statistics and in-sample LD, which will save a lot of time and have little information loss.')
   res.all <- list()
   #shrink <- external.ld
